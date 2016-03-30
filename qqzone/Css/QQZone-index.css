@@ -1,0 +1,1078 @@
+
+.nav-wrap {
+    height: 40px;
+    background-color: #1f1f1f;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #999;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    font-size: 12px;
+}
+
+.nav-content {
+    margin: 0 auto;
+    width: 980px;
+    height: 100%;
+}
+
+.nav-logo {
+    display: block;
+    float: left;
+    width: 90px;
+    height: 100%;
+    background: url("../images/icenter.32-man160107170542.png") no-repeat -63px 0;
+    text-indent: -9999px;
+}
+
+.nav-ul {
+    float: left;
+    padding-left: 10px;
+}
+
+.nav-ul li.firstChild {
+    float: left;
+    line-height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-ul li.selected {
+    background-color: #303030;
+}
+
+.nav-ul li span.ico {
+    float: left;
+    display: block;
+    margin: 13px 7px 0 0;
+    height: 16px;
+    width: 16px;
+}
+
+span.personal {
+    background: url("../images/35.32-man150806163025.png") no-repeat -740px -150px;
+}
+
+span.myindex {
+    background: url("../images/35.32-man150806163025.png") no-repeat -765px 0px;
+}
+
+span.friend {
+    background: url("../images/35.32-man150806163025.png") no-repeat -740px -175px;
+}
+
+span.app {
+    background: url("../images/35.32-man150806163025.png") no-repeat -765px -25px;
+}
+
+span.dress {
+    background: url("../images/35.32-man150806163025.png") no-repeat -765px -50px;
+}
+
+.nav-ul span.triangle {
+    display: block;
+    float: right;
+    margin: 20px 0 0 7px;
+    border: 3px solid #fff;
+    border-color: #fff transparent transparent transparent;
+}
+
+.nav-ul .cur span.triangle {
+    border: 3px solid #404040;
+    border-color: #404040 transparent transparent transparent;
+}
+
+.nav-ul li.cur {
+    background-color: #fff;
+    color: #404040;
+    top: 1px;
+}
+
+.nav-myindex.cur span {
+    background: url("../images/35.32-man150806163025.png") no-repeat -790px -125px;
+}
+
+.myindex-drop-down {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 40px;
+    padding: 30px 24px 27px;
+    z-index: 10;
+    width: 470px;
+    height: 166px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    cursor: auto;
+}
+
+.myindex-drop-down .drop-left {
+    float: left;
+    width: 82px;
+    height: 166px;
+    border-right: 1px solid #e9e9e9;
+}
+
+.myindex-drop-down .drop-right {
+    float: right;
+    width: 380px;
+    height: 166px;
+    padding-left: 6px;
+}
+
+.myindex-drop-down .drop-right li {
+    float: left;
+    margin-left: 25px;
+}
+
+.myindex-drop-down a.icoImg {
+    display: block;
+    width: 48px;
+    height: 48px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 3px;
+}
+
+.myindex-drop-down a {
+    color: #000;
+}
+
+.myindex-drop-down .a-wrap {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.myindex-drop-down a.ico-homepage:hover {
+    border: 1px solid #93c5ec;
+}
+
+.myindex-drop-down .ico-homepage {
+    border: 1px solid #e2e2e2;
+    background-color: #fafafa;
+}
+
+.myindex-drop-down .ico-homepage i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url("../images/icenter-yog160316160503.png") no-repeat -674px 0;
+    margin: 12px;
+}
+
+.myindex-drop-down .ico-journal {
+    background: url("../images/icenter-yog160316160503.png") no-repeat 0 0;
+}
+
+.myindex-drop-down .ico-album {
+    background: url("../images/icenter-yog160316160503.png") no-repeat -52px 0;
+}
+
+.myindex-drop-down .ico-speaks {
+    background: url("../images/icenter-yog160316160503.png") no-repeat -104px 0;
+}
+
+.myindex-drop-down .ico-share {
+    background: url("../images/icenter-yog160316160503.png") no-repeat -156px 0;
+}
+
+.myindex-drop-down .ico-timeaxis {
+    background: url("../images/icenter-yog160316160503.png") no-repeat -208px 0;
+}
+
+.myindex-drop-down .ico-video {
+    background: url("../images/icenter-yog160316160503.png") no-repeat -260px 0;
+}
+
+.myindex-drop-down .ico-music {
+    background: url("../images/icenter-yog160316160503.png") no-repeat -312px 0;
+}
+
+.myindex-drop-down .ico-MessageBoard {
+    background: url("../images/icenter-yog160316160503.png") no-repeat -364px 0;
+}
+
+.myindex-drop-down .ico-PersonalFile {
+    background: url("../images/icenter-yog160316160503.png") no-repeat -416px 0;
+}
+
+.myindex-drop-down .ico-collection {
+    background: url("../images/icenter-yog160316160503.png") no-repeat -468px 0;
+}
+
+.nav-friend.cur span {
+    background: url("../images/35.32-man150806163025.png") no-repeat -790px -100px;
+}
+
+.friend-drop-down {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 40px;
+    z-index: 10;
+    width: 520px;
+    height: 223px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-app.cur span {
+    background: url("../images/35.32-man150806163025.png") no-repeat -790px -150px;
+}
+
+.app-drop-down {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 40px;
+    z-index: 10;
+    width: 520px;
+    height: 223px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-dress.cur span {
+    background: url("../images/35.32-man150806163025.png") no-repeat -790px -175px;
+}
+
+.dress-drop-down {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 40px;
+    z-index: 10;
+    width: 520px;
+    height: 223px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-bgmusic {
+    display: block;
+    float: left;
+    margin-left: 50px;
+    padding: 10px;
+    width: 50px;
+}
+
+.bgmusic-wrap {
+    height: 21px;
+    background-color: #303030;
+}
+
+.bgmusic-wrap span {
+    display: block;
+    float: left;
+    background-color: transparent;
+}
+
+.bgmusic-wrap .bgmusic-player {
+    width: 22px;
+    height: 100%;
+    background: url("../images/35.32-man150806163025.png") no-repeat -763px -123px;
+    border-right: 1px solid #000;
+}
+
+.bgmusic-wrap .bgmusic-musicimg {
+    width: 27px;
+    height: 100%;
+    background: url("../images/35.32-man150806163025.png") no-repeat -759px -151px;
+}
+
+.nav-bgmusic:hover {
+    background-color: #fff;
+}
+
+.nav-bgmusic:hover .bgmusic-wrap {
+    background-color: #e4e4e4;
+}
+
+.nav-bgmusic:hover .bgmusic-player {
+    border-color: #fff;
+    background: url("../images/35.32-man150806163025.png") no-repeat -813px -48px;
+}
+
+.nav-bgmusic:hover .bgmusic-musicimg {
+    background: url("../images/35.32-man150806163025.png") no-repeat -809px -76px;
+}
+
+.nav-search {
+    float: left;
+    position: relative;
+    padding: 10px 5px;
+}
+
+.search-text {
+    width: 135px;
+    height: 21px;
+    border: none;
+    outline: none;
+    border-radius: 2px;;
+    background-color: #565656;
+    color: #cccccc;
+    font-family: "Microsoft Yahei";
+    text-indent: 5px;
+}
+
+.search-ico {
+    display: block;
+    position: absolute;
+    right: 4px;
+    top: 13px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/35.32-man150806163025.png") no-repeat -790px -50px;
+}
+
+.nav-userinfo {
+    display: block;
+    float: left;
+    padding: 9px 5px 8px;
+    width: 86px;
+}
+
+.nav-userinfo:hover {
+    background-color: #303030;
+}
+
+.nav-userinfo .nav-headerImg {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+}
+
+.nav-userinfo .nav-username {
+    line-height: 24px;
+    color: #fff;
+    width: 50px;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav-option {
+    float: left;
+}
+
+.nav-option li {
+    float: left;
+    margin-left: 2px;
+    width: 26px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.nav-option li span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: 13px auto 0;
+}
+
+.option-esc span {
+    background: url("../images/35.32-man150806163025.png") no-repeat -765px -175px;
+}
+
+.option-setup span {
+    background: url("../images/35.32-man150806163025.png") no-repeat -790px 0px;
+}
+
+.nav-option .option-diamond span {
+    width: 20px;
+    height: 18px;
+    background: url("../images/qzone-vip.gif") no-repeat;
+}
+
+/* 中间主要内容开始 */
+.content-wrap {
+    height: 1000px;
+    background: url("../images/72019_top.webp") no-repeat -126px -1px;
+}
+
+.content-top {
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content-top .top-left {
+    width: 128px;
+}
+
+.top-left .headerimg-up {
+    position: relative;
+    height: 91px;
+}
+
+.headerimg-up .bg-Grade {
+    display: block;
+    position: relative;
+    width: 18px;
+    height: 20px;
+    background: url("../images/qz_qzone_lv-man151215172116.png") no-repeat -36px 0;
+}
+
+.headerimg-up .bg-nums {
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: 3px;
+    width: 20px;
+    height: 8px;
+}
+
+.headerimg-up .bg-num1 {
+    display: block;
+    float: left;
+    width: 8px;
+    height: 8px;
+    background: url("../images/qz_qzone_lv-man151215172116.png") no-repeat -198px 0;
+}
+
+.headerimg-up .bg-num2 {
+    display: block;
+    float: left;
+    width: 8px;
+    height: 8px;
+    background: url("../images/qz_qzone_lv-man151215172116.png") no-repeat -234px 0;
+}
+
+.top-left .headerImg {
+    border: 1px solid #d9d9d9;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.top-left .headerImg img {
+    width: 120px;
+    height: 120px;
+}
+
+.top-left a {
+    display: inline-block;
+}
+
+.top-left .phoneversion {
+    display: inline-block;
+    margin-left: 4px;
+    margin-bottom: 5px;
+    width: 34px;
+    height: 22px;
+    background: url("../images/icenter.32-man160107170542.png") no-repeat -315px 0;
+}
+
+.top-left .ico {
+    position: absolute;
+    right: 0;
+    top: 29px;
+}
+
+.top-left, .top-center, .top-right {
+    float: left;
+    height: 260px;
+}
+
+.top-center {
+    width: 630px;
+}
+
+.top-center .wrap {
+    position: relative;
+}
+
+.top-center .wrap h3 {
+    position: absolute;
+    left: 15px;
+    top: 153px;
+    font-size: 20px;
+    font-weight: 300;
+    width: 130px;
+    font-family: "Microsoft Yahei";
+    color: #5d7895;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.top-center .wrap .open-vip {
+    position: absolute;
+    left: 135px;
+    top: 155px;
+    display: block;
+    width: 100px;
+    height: 40px;
+    background: url("../images/icon-vip-open.png") no-repeat;
+}
+
+.top-center-menus {
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    font-size: 14px;
+}
+
+.top-center-menus li {
+    float: left;
+}
+
+.top-center-menus a {
+    display: block;
+    padding: 15px;
+    color: #000;
+    font-family: punctuation, "PingFangSC-Regular", "Microsoft Yahei", "sans-serif";
+}
+
+.top-center-menus a:hover {
+    text-decoration: underline;
+}
+
+.top-right {
+    position: relative;
+    width: 150px;
+}
+
+.top-right .wrap {
+    position: absolute;
+    left: 15px;
+    bottom: 53px;
+}
+
+.ico-sunny {
+    display: block;
+    float: left;
+}
+
+.temperature {
+    float: left;
+    position: relative;
+    font-family: "Segoe UI";
+    color: #5d7895;
+    min-width: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+
+}
+
+.temperature h5 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.temperature span {
+    display: block;
+    position: absolute;
+    left: 18px;
+    top: 0;
+    font-size: 22px;
+    line-height: 15px;
+}
+
+.information-date {
+    float: left;
+    padding-top: 5px;
+}
+
+.information-date p {
+    color: #5d7895;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    line-height: 22px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+
+}
+
+.information-date .date {
+    font-size: 12px;
+}
+
+/* 中间部分主要内容部分*/
+.content-content {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.content-content .main-left {
+    float: left;
+    width: 170px;
+    margin-right: 23px;
+}
+
+.content-content .main {
+    float: left;
+    width: 534px;
+}
+
+.content-content .main-right {
+    float: left;
+    marin-left: 23px;
+    width: 230px;
+}
+
+.main-left .sidebar-a {
+    background-color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px #d9d9d9 solid;
+    padding: 3px;
+}
+
+.main-left .sidebar-a li {
+    line-height: 33px;
+}
+
+.main-left .sidebar-a li a {
+    display: block;
+    font-size: 12px;
+    color: #000;
+    font-family: "Microsoft Yahei";
+}
+
+.main-left .sidebar-a li a.active {
+    background-color: #f0f0f0;
+    font-weight: 700;
+}
+
+.main-left .sidebar-a li a:hover {
+    background-color: #f0f0f0;
+}
+
+.main-left .sidebar-a li span {
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin: 8px 10px 0px 10px;
+}
+
+.ico-friend-dynamic {
+    background: url("../images/35.32-man160203180152.png") no-repeat -510px -52px;
+    /*340px -52px*/
+}
+
+.main-left .sidebar-a li a.active .ico-friend-dynamic {
+    background: url("../images/35.32-man160203180152.png") no-repeat -510px -78px;
+}
+
+.ico-very-carefor {
+    background: url("../images/35.32-man160203180152.png") no-repeat -198px -52px;
+}
+
+.main-left .sidebar-a li a.active .ico-very-carefor {
+    background: url("../images/35.32-man160203180152.png") no-repeat -510px -104px;
+}
+
+.ico-related-me {
+    background: url("../images/35.32-man160203180152.png") no-repeat -276px -182px;
+}
+
+.main-left .sidebar-a li a.active .ico-related-me {
+    background: url("../images/35.32-man160203180152.png") no-repeat -276px -208px;
+}
+
+.ico-thatyear-today {
+    background: url("../images/35.32-man160203180152.png") no-repeat -224px -312px;
+}
+
+.main-left .sidebar-a li a.active .ico-thatyear-today {
+    background: url("../images/35.32-man160203180152.png") no-repeat -562px -52px;
+}
+
+.ico-app-core {
+    background: url("../images/35.32-man160203180152.png") no-repeat -536px -52px;
+}
+
+.main-left .sidebar-a li a.active .ico-app-core {
+    background: url("../images/35.32-man160203180152.png") no-repeat -536px -78px;
+}
+
+.ico-my-collection {
+    background: url("../images/35.32-man160203180152.png") no-repeat -536px -208px;
+}
+
+.main-left .sidebar-a li a.active .ico-my-collection {
+    background: url("../images/35.32-man160203180152.png") no-repeat -536px -234px;
+}
+
+.ico-cloud-backups {
+    background: url("../images/35.32-man160203180152.png") no-repeat -562px -78px;
+}
+
+.main-left .sidebar-a li a.active .ico-cloud-backups {
+    background: url("../images/35.32-man160203180152.png") no-repeat -536px -104px;
+}
+
+.ico-penguin-fm {
+    background: url("../images/35.32-man160203180152.png") no-repeat -562px -182px;
+}
+
+.main-left .sidebar-a li a.active .ico-penguin-fm {
+    background: url("../images/35.32-man160203180152.png") no-repeat -562px -208px;
+}
+
+.ico-qq-read {
+    background: url("../images/35.32-man160203180152.png") no-repeat -562px -234px;
+}
+
+.main-left .sidebar-a li a.active .ico-qq-read {
+    background: url("../images/35.32-man160203180152.png") no-repeat -562px -259px;
+}
+
+.ico-realname-friend {
+    background: url("../images/35.32-man160203180152.png") no-repeat -510px -130px;
+}
+
+.main-left .sidebar-a li a.active .ico-realname-friend {
+    background: url("../images/35.32-man160203180152.png") no-repeat -510px -208px;
+}
+
+.ico-attestation-zone {
+    background: url("../images/35.32-man160203180152.png") no-repeat -510px -182px;
+}
+
+.main-left .sidebar-a li a.active .ico-attestation-zone {
+    background: url("../images/35.32-man160203180152.png") no-repeat -510px -208px;
+}
+
+.ico-qq-show {
+    background: url("../images/35.32-man160203180152.png") no-repeat -562px 0px;
+}
+
+.main-left .sidebar-a li a.active .ico-qq-show {
+    background: url("../images/35.32-man160203180152.png") no-repeat -562px -27px;
+}
+
+.ico-partying {
+    background: url("../images/35.32-man160203180152.png") no-repeat -536px -286px;
+}
+
+.main-left .sidebar-a li a.active .ico-partying {
+    background: url("../images/35.32-man160203180152.png") no-repeat -562px -312px;
+}
+
+.sidebar-a-bottom {
+    position: relative;
+    display: block;
+    height: 20px;
+    border: 1px solid #d9d9d9;
+    border-top: 0px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #fafafa;
+}
+
+.sidebar-a-bottom span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -8px;
+    margin-top: -6px;
+    display: block;
+    width: 14px;
+    height: 10px;
+    background: url("../images/35.32-man160203180152.png") no-repeat -562px -313px;
+}
+
+.publish-a {
+    position: relative;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+}
+
+.publish-text {
+    float: left;
+}
+
+.publish-text textarea {
+    resize: none;
+    border: 0;
+    outline: none;
+    padding: 5px;
+    height: 55px;
+    width: 375px;
+}
+
+.menus-wrap {
+    float: left;
+    height: 68px;
+}
+
+.menus-wrap .bottom-menu {
+    display: none;
+    position: absolute;
+    right: -1px;
+    top: 101%;
+    border-right: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.menus-wrap .bottom-menu.cur {
+    display: block;
+}
+
+.menus-wrap .bottom-menu li {
+    float: right;
+}
+
+.publish-menu li {
+    float: left;
+    width: 48px;
+    height: 68px;
+    background-color: #fafafa;
+}
+
+.publish-menu li.photo, .publish-menu li.video, .publish-menu li.interest, .publish-menu li.local {
+    border-left: 1px solid #d9d9d9;
+}
+
+.publish-menu a {
+    display: block;
+    padding-top: 22px;
+    width: 100%;
+    height: 46px;
+    text-align: center;
+}
+
+.publish-menu a span {
+    display: block;
+    margin: 0 auto;
+    width: 25px;
+    height: 23px;
+}
+
+.publish-menu .ico-photo span {
+    background: url(../images/35.32-man160203180152.png) no-repeat -302px -0px;;
+}
+
+.publish-menu .ico-photo:hover span {
+    background-position: -302px -26px;;
+}
+
+.publish-menu .ico-video span {
+    background: url(../images/35.32-man160203180152.png) no-repeat -302px -52px;;
+}
+
+.publish-menu .ico-video:hover span {
+    background-position: -302px -78px;;
+}
+
+.publish-menu .ico-interest span {
+    background: url(../images/35.32-man160203180152.png) no-repeat -302px -104px;;
+}
+
+.publish-menu .ico-interest:hover span {
+    background-position: -302px -130px;;
+}
+
+.publish-b {
+    height: 39px;
+    border: 1px solid #d9d9d9;
+    border-top: 0px;
+    background-color: #ffffff;
+}
+
+.publish-b .icolist1 {
+    float: left;
+    height: 100%;
+    padding: 11px 0 0 10px;
+}
+
+.publish-b .icolist1 a {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.publish-b .icolist1 .expression {
+    background: url("../images/35.32-man160317105410.png") no-repeat -198px 0px;
+}
+
+.publish-b .icolist1 .expression:hover {
+    background-position: -276px -208px;
+}
+
+.publish-b .icolist1 .remind {
+    background: url("../images/35.32-man160317105410.png") no-repeat -276px -234px;
+}
+
+.publish-b .icolist1 .remind:hover {
+    background-position: -276px -260px;
+}
+
+.publish-b .icolist1 .insert {
+    background: url("../images/35.32-man160317105410.png") no-repeat -276px -286px;
+}
+
+.publish-b .icolist1 .insert:hover {
+    background-position: -276px -312px;
+}
+
+.btn-publish {
+    float: right;
+    width: 77px;
+    height: 29px;
+    padding: 5px;
+}
+
+.btn-publish span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #5caae6;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 29px;
+    font-family: punctuation, "PingFangSC-Regular", "Microsoft Yahei", "sans-serif";
+    cursor: pointer;
+}
+
+.icolist2 {
+    float: right;
+    height: 100%;
+    padding: 11px 0 0 10px;
+
+}
+
+.icolist2 .syncqq, .icolist2 .syncmicro-blog {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/35.32-man160317105410.png") no-repeat;
+}
+
+.icolist2 .syncqq {
+    background-position: -432px -104px;
+}
+
+.icolist2 .syncqq:hover {
+    background-position: -432px -130px;
+}
+
+.icolist2 .syncmicro-blog {
+    background-position: -432px 0px;
+}
+
+.icolist2 .syncmicro-blog:hover {
+    background-position: -432px -26px;
+}
+
+.range-wrap {
+    float: left;
+    border-left: 1px solid #e6e6e6;
+    font-size: 12px;
+    color: #8c8c8c;
+    line-height: 16px;
+    padding-left: 14px;
+}
+
+.range-wrap a {
+    color: #8c8c8c;
+}
+
+.range-wrap .ico-downarrow {
+    float: right;
+    display: block;
+    margin: 4px 18px 0;
+    width: 12px;
+    height: 10px;
+    background: url('../images/35.32-man160317105410.png') no-repeat -224px -234px;
+    cursor: pointer;
+}
+
+.allDynamic {
+    margin-top: 12px;
+    height: 300px;
+    border: 1px solid #d9d9d9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    font-family: "Microsoft Yahei";
+}
+
+.dynamic-header {
+    height: 42px;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #fafafa;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.dynamic-header .dynamic-title {
+    position: relative;
+    float: left;
+    line-height: 42px;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.dynamic-header .ico-downarrow {
+    position: absolute;
+    top: 50%;
+    left: 75px;
+    margin-top: -3px;
+    display: block;
+    width: 12px;
+    height: 10px;
+    background: url('../images/35.32-man160317105410.png') no-repeat -224px -234px;
+    cursor: pointer;
+}
+
+.dynamic-header .dynamic-option {
+    float: right;
+    line-height: 42px;
+    padding: 12px 20px 0 0;
+}
+
+.dynamic-option a {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.dynamic-option span {
+    float: left;
+    display: block;
+    margin:0 10px;
+    height: 20px;
+    border-left: 1px solid #e6e6e6;
+}
+
+.dynamic-option .option-refresh {
+    float: left;
+    background: url("../images/35.32-man160317105410.png") no-repeat -614px -208px;
+}
+.option-refresh:hover
+{
+    background-position:  -614px -234px;
+}
+
+.dynamic-option .option-setup {
+    float: right;
+    background: url("../images/35.32-man160317105410.png") no-repeat -432px -312px;
+}
+.option-setup:hover
+{
+    background-position: -614px -260px;
+}
